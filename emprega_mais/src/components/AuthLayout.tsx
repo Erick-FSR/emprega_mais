@@ -18,11 +18,11 @@ export const AuthLayout: React.FC<AuthLayoutProps> = ({ children }) => {
         <div className="absolute inset-0 bg-gradient-to-br from-[#c8d9c7] via-[#c2d5c1] to-[#b3c9b2]" />
 
         {/* The illustration */}
-        <div className="relative z-10 w-full max-w-2xl flex items-center justify-center">
+        <div className="relative z-10 w-full h-full flex items-center justify-center">
           <img
-            src="/illustration.png"
+            src="/fundo.png"
             alt="Ilustração de profissional conectado"
-            className="w-full max-h-[85vh] object-contain drop-shadow-md select-none pointer-events-none"
+            className="w-full h-full object-contain drop-shadow-md select-none pointer-events-none"
           />
         </div>
       </div>

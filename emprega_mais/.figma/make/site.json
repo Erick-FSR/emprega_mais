@@ -1,0 +1,10 @@
+{
+  "description": "A responsive website that follows the provided designs, offering a consistent, easy-to-use experience across pages and devices.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
